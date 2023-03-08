@@ -112,7 +112,7 @@ PKGV = "2.7+git${GITPKGV}"
 
 ENIGMA2_BRANCH ?= "release-8.3"
 GITHUB_URI ?= "git://github.com"
-SRC_URI = "${GITHUB_URI}/OpenPLi/${BPN}.git;branch=${ENIGMA2_BRANCH}${@ ';protocol=https' if d.getVar('GITHUB_URI', '').startswith('git://github.com') else '' }"
+SRC_URI = "git://github.com/Yoshi1981/enigma2.git;branch=${ENIGMA2_BRANCH}${@ ';protocol=https' if d.getVar('GITHUB_URI', '').startswith('git://github.com') else '' }"
 
 LDFLAGS_prepend = " -lxml2 "
 
