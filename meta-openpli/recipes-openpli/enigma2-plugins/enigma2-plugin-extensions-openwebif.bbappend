@@ -119,6 +119,7 @@ python do_cleanup () {
         ('ustym4kpro', 'ustym4kpro.png', 'uclan.png', 'uclan.html'),
         ('pulse4k', 'pulse4k.png', 'pulse4k.png', 'pulse4k.html'),
         ('pulse4kmini', 'pulse4kmini.png', 'pulse4k.png', 'pulse4k.html'),
+        ('bre2ze4k', 'bre2ze4k.png', 'bre2ze4k.png', 'bre2ze4k.html'),
     ]
 
     import os
